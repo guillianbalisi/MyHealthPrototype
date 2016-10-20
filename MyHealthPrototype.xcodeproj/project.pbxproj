@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F143C6EA1DB6FE830052D8E2 /* EligibilityTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F143C6E91DB6FE830052D8E2 /* EligibilityTask.swift */; };
+		F168AAE11DB1765D00F6A0A8 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */; };
+		F168AAE31DB176BE00F6A0A8 /* PieChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168AAE21DB176BE00F6A0A8 /* PieChartDataSource.swift */; };
+		F1B6B78A1DAEE4D8003F1817 /* HealthClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B7891DAEE4D8003F1817 /* HealthClientType.swift */; };
+		F1B6B78C1DAEE506003F1817 /* HKHealthStore+Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B78B1DAEE506003F1817 /* HKHealthStore+Queries.swift */; };
+		F1B6B78F1DAF2D5C003F1817 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B78E1DAF2D5C003F1817 /* ProfileViewController.swift */; };
+		F1B6B7911DAF2DFF003F1817 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B7901DAF2DFF003F1817 /* ProfileHeaderView.swift */; };
+		F1B6B7931DAF2E28003F1817 /* ProfileStaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B7921DAF2E28003F1817 /* ProfileStaticTableViewCell.swift */; };
 		F1D871641DAEA6E400DF17B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871631DAEA6E400DF17B9 /* AppDelegate.swift */; };
-		F1D871661DAEA6E400DF17B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871651DAEA6E400DF17B9 /* ViewController.swift */; };
 		F1D871691DAEA6E400DF17B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D871671DAEA6E400DF17B9 /* Main.storyboard */; };
 		F1D8716B1DAEA6E400DF17B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D8716A1DAEA6E400DF17B9 /* Assets.xcassets */; };
 		F1D8716E1DAEA6E400DF17B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D8716C1DAEA6E400DF17B9 /* LaunchScreen.storyboard */; };
 		F1D871791DAEA6E400DF17B9 /* MyHealthPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871781DAEA6E400DF17B9 /* MyHealthPrototypeTests.swift */; };
+		F1D8718D1DAEA71600DF17B9 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D8718A1DAEA70300DF17B9 /* ResearchKit.framework */; };
+		F1D8718E1DAEA71600DF17B9 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1D8718A1DAEA70300DF17B9 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1D871931DAEA75900DF17B9 /* ResearchContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871921DAEA75900DF17B9 /* ResearchContainerViewController.swift */; };
+		F1D871951DAEA77B00DF17B9 /* ResearchContainerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871941DAEA77B00DF17B9 /* ResearchContainerSegue.swift */; };
+		F1D871981DAEA79C00DF17B9 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871971DAEA79C00DF17B9 /* OnboardingViewController.swift */; };
+		F1D8719A1DAEA7C000DF17B9 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871991DAEA7C000DF17B9 /* IntroductionViewController.swift */; };
+		F1D8719D1DAEA7E100DF17B9 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8719C1DAEA7E100DF17B9 /* ConsentDocument.swift */; };
+		F1D871A51DAEAB1800DF17B9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D871A41DAEAB1800DF17B9 /* HealthKit.framework */; };
+		F1D871A71DAEABA700DF17B9 /* HealthDataStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871A61DAEABA700DF17B9 /* HealthDataStep.swift */; };
+		F1D871A91DAEABD400DF17B9 /* HealthDataStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871A81DAEABD400DF17B9 /* HealthDataStepViewController.swift */; };
+		F1D871AC1DAEAC3100DF17B9 /* StudyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871AB1DAEAC3100DF17B9 /* StudyTasks.swift */; };
+		F1D871AE1DAEACB100DF17B9 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871AD1DAEACB100DF17B9 /* ActivityViewController.swift */; };
+		F1DA76D21DB0034F00097BBF /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA76D11DB0034F00097BBF /* WithdrawViewController.swift */; };
+		F1DA76D41DB0089D00097BBF /* AnimatableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA76D31DB0089C00097BBF /* AnimatableChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +44,54 @@
 			remoteGlobalIDString = F1D8715F1DAEA6E400DF17B9;
 			remoteInfo = MyHealthPrototype;
 		};
+		F1D871891DAEA70300DF17B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D871831DAEA70300DF17B9 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		F1D8718B1DAEA70300DF17B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D871831DAEA70300DF17B9 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		F1D8718F1DAEA71600DF17B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D871831DAEA70300DF17B9 /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F1D871911DAEA71600DF17B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F1D8718E1DAEA71600DF17B9 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F143C6E91DB6FE830052D8E2 /* EligibilityTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EligibilityTask.swift; sourceTree = "<group>"; };
+		F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
+		F168AAE21DB176BE00F6A0A8 /* PieChartDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartDataSource.swift; sourceTree = "<group>"; };
+		F1B6B7891DAEE4D8003F1817 /* HealthClientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthClientType.swift; sourceTree = "<group>"; };
+		F1B6B78B1DAEE506003F1817 /* HKHealthStore+Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKHealthStore+Queries.swift"; sourceTree = "<group>"; };
+		F1B6B78E1DAF2D5C003F1817 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F1B6B7901DAF2DFF003F1817 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		F1B6B7921DAF2E28003F1817 /* ProfileStaticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStaticTableViewCell.swift; sourceTree = "<group>"; };
 		F1D871601DAEA6E400DF17B9 /* MyHealthPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHealthPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D871631DAEA6E400DF17B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1D871651DAEA6E400DF17B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1D871681DAEA6E400DF17B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1D8716A1DAEA6E400DF17B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1D8716D1DAEA6E400DF17B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +99,20 @@
 		F1D871741DAEA6E400DF17B9 /* MyHealthPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHealthPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D871781DAEA6E400DF17B9 /* MyHealthPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthPrototypeTests.swift; sourceTree = "<group>"; };
 		F1D8717A1DAEA6E400DF17B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D871831DAEA70300DF17B9 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		F1D871921DAEA75900DF17B9 /* ResearchContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResearchContainerViewController.swift; sourceTree = "<group>"; };
+		F1D871941DAEA77B00DF17B9 /* ResearchContainerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResearchContainerSegue.swift; sourceTree = "<group>"; };
+		F1D871971DAEA79C00DF17B9 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		F1D871991DAEA7C000DF17B9 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		F1D8719C1DAEA7E100DF17B9 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		F1D871A21DAEAB1800DF17B9 /* MyHealthPrototype.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyHealthPrototype.entitlements; sourceTree = "<group>"; };
+		F1D871A41DAEAB1800DF17B9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		F1D871A61DAEABA700DF17B9 /* HealthDataStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataStep.swift; sourceTree = "<group>"; };
+		F1D871A81DAEABD400DF17B9 /* HealthDataStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataStepViewController.swift; sourceTree = "<group>"; };
+		F1D871AB1DAEAC3100DF17B9 /* StudyTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyTasks.swift; sourceTree = "<group>"; };
+		F1D871AD1DAEACB100DF17B9 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		F1DA76D11DB0034F00097BBF /* WithdrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
+		F1DA76D31DB0089C00097BBF /* AnimatableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D8718D1DAEA71600DF17B9 /* ResearchKit.framework in Frameworks */,
+				F1D871A51DAEAB1800DF17B9 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +135,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1B6B7861DAEE4B8003F1817 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F1B6B7891DAEE4D8003F1817 /* HealthClientType.swift */,
+				F1DA76D31DB0089C00097BBF /* AnimatableChart.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		F1B6B78D1DAF2D48003F1817 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F1B6B78E1DAF2D5C003F1817 /* ProfileViewController.swift */,
+				F1B6B7901DAF2DFF003F1817 /* ProfileHeaderView.swift */,
+				F1B6B7921DAF2E28003F1817 /* ProfileStaticTableViewCell.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		F1D871571DAEA6E400DF17B9 = {
 			isa = PBXGroup;
 			children = (
+				F1D871831DAEA70300DF17B9 /* ResearchKit.xcodeproj */,
 				F1D871621DAEA6E400DF17B9 /* MyHealthPrototype */,
 				F1D871771DAEA6E400DF17B9 /* MyHealthPrototypeTests */,
 				F1D871611DAEA6E400DF17B9 /* Products */,
+				F1D871A31DAEAB1800DF17B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +177,19 @@
 		F1D871621DAEA6E400DF17B9 /* MyHealthPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				F1D871A21DAEAB1800DF17B9 /* MyHealthPrototype.entitlements */,
 				F1D871631DAEA6E400DF17B9 /* AppDelegate.swift */,
-				F1D871651DAEA6E400DF17B9 /* ViewController.swift */,
+				F1D871921DAEA75900DF17B9 /* ResearchContainerViewController.swift */,
+				F1D871941DAEA77B00DF17B9 /* ResearchContainerSegue.swift */,
+				F1D871961DAEA78A00DF17B9 /* Onboarding */,
+				F1DA76D51DB008A800097BBF /* Dashboard */,
+				F1D871AA1DAEAC1B00DF17B9 /* Activities */,
+				F1B6B78D1DAF2D48003F1817 /* Profile */,
+				F1DA76CE1DB0034200097BBF /* Withdrawal */,
+				F1D8719B1DAEA7CF00DF17B9 /* Steps */,
 				F1D871671DAEA6E400DF17B9 /* Main.storyboard */,
+				F1B6B7861DAEE4B8003F1817 /* Protocols */,
+				F1B6B78B1DAEE506003F1817 /* HKHealthStore+Queries.swift */,
 				F1D8716A1DAEA6E400DF17B9 /* Assets.xcassets */,
 				F1D8716C1DAEA6E400DF17B9 /* LaunchScreen.storyboard */,
 				F1D8716F1DAEA6E400DF17B9 /* Info.plist */,
@@ -96,6 +206,69 @@
 			path = MyHealthPrototypeTests;
 			sourceTree = "<group>";
 		};
+		F1D871841DAEA70300DF17B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8718A1DAEA70300DF17B9 /* ResearchKit.framework */,
+				F1D8718C1DAEA70300DF17B9 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D871961DAEA78A00DF17B9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F1D871971DAEA79C00DF17B9 /* OnboardingViewController.swift */,
+				F1D871991DAEA7C000DF17B9 /* IntroductionViewController.swift */,
+				F143C6E91DB6FE830052D8E2 /* EligibilityTask.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		F1D8719B1DAEA7CF00DF17B9 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8719C1DAEA7E100DF17B9 /* ConsentDocument.swift */,
+				F1D871A61DAEABA700DF17B9 /* HealthDataStep.swift */,
+				F1D871A81DAEABD400DF17B9 /* HealthDataStepViewController.swift */,
+			);
+			name = Steps;
+			sourceTree = "<group>";
+		};
+		F1D871A31DAEAB1800DF17B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D871A41DAEAB1800DF17B9 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D871AA1DAEAC1B00DF17B9 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				F1D871AB1DAEAC3100DF17B9 /* StudyTasks.swift */,
+				F1D871AD1DAEACB100DF17B9 /* ActivityViewController.swift */,
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+		F1DA76CE1DB0034200097BBF /* Withdrawal */ = {
+			isa = PBXGroup;
+			children = (
+				F1DA76D11DB0034F00097BBF /* WithdrawViewController.swift */,
+			);
+			name = Withdrawal;
+			sourceTree = "<group>";
+		};
+		F1DA76D51DB008A800097BBF /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */,
+				F168AAE21DB176BE00F6A0A8 /* PieChartDataSource.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,10 +279,12 @@
 				F1D8715C1DAEA6E400DF17B9 /* Sources */,
 				F1D8715D1DAEA6E400DF17B9 /* Frameworks */,
 				F1D8715E1DAEA6E400DF17B9 /* Resources */,
+				F1D871911DAEA71600DF17B9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F1D871901DAEA71600DF17B9 /* PBXTargetDependency */,
 			);
 			name = MyHealthPrototype;
 			productName = MyHealthPrototype;
@@ -146,7 +321,13 @@
 				TargetAttributes = {
 					F1D8715F1DAEA6E400DF17B9 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 46FATYVTFW;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					F1D871731DAEA6E400DF17B9 = {
 						CreatedOnToolsVersion = 8.0;
@@ -166,6 +347,12 @@
 			mainGroup = F1D871571DAEA6E400DF17B9;
 			productRefGroup = F1D871611DAEA6E400DF17B9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F1D871841DAEA70300DF17B9 /* Products */;
+					ProjectRef = F1D871831DAEA70300DF17B9 /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F1D8715F1DAEA6E400DF17B9 /* MyHealthPrototype */,
@@ -173,6 +360,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F1D8718A1DAEA70300DF17B9 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = F1D871891DAEA70300DF17B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1D8718C1DAEA70300DF17B9 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = F1D8718B1DAEA70300DF17B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F1D8715E1DAEA6E400DF17B9 /* Resources */ = {
@@ -199,8 +403,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D871661DAEA6E400DF17B9 /* ViewController.swift in Sources */,
+				F1DA76D21DB0034F00097BBF /* WithdrawViewController.swift in Sources */,
+				F1D871A91DAEABD400DF17B9 /* HealthDataStepViewController.swift in Sources */,
+				F1B6B78C1DAEE506003F1817 /* HKHealthStore+Queries.swift in Sources */,
+				F1DA76D41DB0089D00097BBF /* AnimatableChart.swift in Sources */,
+				F1D871AC1DAEAC3100DF17B9 /* StudyTasks.swift in Sources */,
+				F1D871951DAEA77B00DF17B9 /* ResearchContainerSegue.swift in Sources */,
+				F1D871AE1DAEACB100DF17B9 /* ActivityViewController.swift in Sources */,
+				F1D8719D1DAEA7E100DF17B9 /* ConsentDocument.swift in Sources */,
+				F1D871A71DAEABA700DF17B9 /* HealthDataStep.swift in Sources */,
+				F1D8719A1DAEA7C000DF17B9 /* IntroductionViewController.swift in Sources */,
 				F1D871641DAEA6E400DF17B9 /* AppDelegate.swift in Sources */,
+				F168AAE31DB176BE00F6A0A8 /* PieChartDataSource.swift in Sources */,
+				F1B6B78A1DAEE4D8003F1817 /* HealthClientType.swift in Sources */,
+				F1B6B78F1DAF2D5C003F1817 /* ProfileViewController.swift in Sources */,
+				F1B6B7911DAF2DFF003F1817 /* ProfileHeaderView.swift in Sources */,
+				F1B6B7931DAF2E28003F1817 /* ProfileStaticTableViewCell.swift in Sources */,
+				F1D871931DAEA75900DF17B9 /* ResearchContainerViewController.swift in Sources */,
+				F168AAE11DB1765D00F6A0A8 /* DashboardTableViewController.swift in Sources */,
+				F143C6EA1DB6FE830052D8E2 /* EligibilityTask.swift in Sources */,
+				F1D871981DAEA79C00DF17B9 /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +441,11 @@
 			isa = PBXTargetDependency;
 			target = F1D8715F1DAEA6E400DF17B9 /* MyHealthPrototype */;
 			targetProxy = F1D871751DAEA6E400DF17B9 /* PBXContainerItemProxy */;
+		};
+		F1D871901DAEA71600DF17B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = F1D8718F1DAEA71600DF17B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,8 +563,12 @@
 		F1D8717E1DAEA6E400DF17B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyHealthPrototype/MyHealthPrototype.entitlements;
+				DEVELOPMENT_TEAM = 46FATYVTFW;
 				INFOPLIST_FILE = MyHealthPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.MyHealthPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,8 +579,12 @@
 		F1D8717F1DAEA6E400DF17B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyHealthPrototype/MyHealthPrototype.entitlements;
+				DEVELOPMENT_TEAM = 46FATYVTFW;
 				INFOPLIST_FILE = MyHealthPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.MyHealthPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,6 +639,7 @@
 				F1D8717F1DAEA6E400DF17B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D871801DAEA6E400DF17B9 /* Build configuration list for PBXNativeTarget "MyHealthPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +648,7 @@
 				F1D871821DAEA6E400DF17B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
