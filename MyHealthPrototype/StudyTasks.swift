@@ -275,12 +275,13 @@ struct StudyTasks {
         items += [sittingSection]
         
         let sittingFormTitle = "During the last 7 days, how much time did you usually spend sitting or laying down on a week day?"
-        let sittingAnswerFormat = ORKNumericAnswerFormat(style: .integer, unit: "minutes")
+        let sittingAnswerFormat = ORKNumericAnswerFormat(style: .integer, unit: "hours")
         let sittingFormStep = ORKFormItem(identifier: "SittingFormStep", text: sittingFormTitle, answerFormat: sittingAnswerFormat)
         
         items += [sittingFormStep]
         
         form.formItems = items
+        form.isOptional = false
         
         let task = ORKNavigableOrderedTask(identifier: "FormTask", steps: [form])
         

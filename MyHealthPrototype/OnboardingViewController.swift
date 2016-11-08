@@ -16,6 +16,7 @@ class OnboardingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         joinStudyButton.tintColor = UIColor.init(colorLiteralRed: 190.0, green: 0, blue: 0, alpha: 1.0)
         joinStudyButton.backgroundColor = UIColor.clear
         joinStudyButton.layer.cornerRadius = 5
@@ -27,9 +28,13 @@ class OnboardingViewController: UIViewController {
     
     // MARK: IB actions    
     @IBAction func joinButtonTapped(_ sender: UIButton) {
-
         let consentDocument = ConsentDocument()
         let consentStep = ORKVisualConsentStep(identifier: "VisualConsentStep", document: consentDocument)
+        
+        let investigatorShortDescription = "PHRI"
+        let investigatorLongDescription = "PHRI"
+        let localizedLearnMoreHTMLContent = "Choose to share with PHRI only or with PHRI and other institutions such as McMaster University."
+        let sharingConsentStep = ORKConsentSharingStep(identifier: "SharingConsentStep", investigatorShortDescription: investigatorShortDescription, investigatorLongDescription: investigatorLongDescription, localizedLearnMoreHTMLContent: localizedLearnMoreHTMLContent)
         
         let healthDataStep = HealthDataStep(identifier: "Health")
         
@@ -47,7 +52,7 @@ class OnboardingViewController: UIViewController {
         completionStep.title = "Welcome aboard."
         completionStep.text = "Thank you for joining this study."
         
-        let orderedTask = ORKOrderedTask(identifier: "Join", steps: [consentStep, reviewConsentStep, healthDataStep, passcodeStep, completionStep])
+        let orderedTask = ORKOrderedTask(identifier: "Join", steps: [consentStep, sharingConsentStep, reviewConsentStep, healthDataStep, passcodeStep, completionStep])
         let taskViewController = ORKTaskViewController(task: orderedTask, taskRun: nil)
         taskViewController.delegate = self
         

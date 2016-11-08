@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F143C6EA1DB6FE830052D8E2 /* EligibilityTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F143C6E91DB6FE830052D8E2 /* EligibilityTask.swift */; };
 		F168AAE11DB1765D00F6A0A8 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */; };
-		F168AAE31DB176BE00F6A0A8 /* PieChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168AAE21DB176BE00F6A0A8 /* PieChartDataSource.swift */; };
+		F1A8C85E1DC0544C004ADB2E /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A8C85D1DC0544C004ADB2E /* LearnViewController.swift */; };
 		F1B6B78A1DAEE4D8003F1817 /* HealthClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B7891DAEE4D8003F1817 /* HealthClientType.swift */; };
 		F1B6B78C1DAEE506003F1817 /* HKHealthStore+Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B78B1DAEE506003F1817 /* HKHealthStore+Queries.swift */; };
 		F1B6B78F1DAF2D5C003F1817 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B78E1DAF2D5C003F1817 /* ProfileViewController.swift */; };
@@ -34,6 +34,8 @@
 		F1D871AE1DAEACB100DF17B9 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871AD1DAEACB100DF17B9 /* ActivityViewController.swift */; };
 		F1DA76D21DB0034F00097BBF /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA76D11DB0034F00097BBF /* WithdrawViewController.swift */; };
 		F1DA76D41DB0089D00097BBF /* AnimatableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA76D31DB0089C00097BBF /* AnimatableChart.swift */; };
+		F1E66BE11DBC152F006A4685 /* MyHealthTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E66BE01DBC152F006A4685 /* MyHealthTabBarController.swift */; };
+		F1E66BE51DBC1854006A4685 /* ActivityCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E66BE41DBC1854006A4685 /* ActivityCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +86,7 @@
 /* Begin PBXFileReference section */
 		F143C6E91DB6FE830052D8E2 /* EligibilityTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EligibilityTask.swift; sourceTree = "<group>"; };
 		F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
-		F168AAE21DB176BE00F6A0A8 /* PieChartDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartDataSource.swift; sourceTree = "<group>"; };
+		F1A8C85D1DC0544C004ADB2E /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		F1B6B7891DAEE4D8003F1817 /* HealthClientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthClientType.swift; sourceTree = "<group>"; };
 		F1B6B78B1DAEE506003F1817 /* HKHealthStore+Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKHealthStore+Queries.swift"; sourceTree = "<group>"; };
 		F1B6B78E1DAF2D5C003F1817 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,8 @@
 		F1D871AD1DAEACB100DF17B9 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		F1DA76D11DB0034F00097BBF /* WithdrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
 		F1DA76D31DB0089C00097BBF /* AnimatableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableChart.swift; sourceTree = "<group>"; };
+		F1E66BE01DBC152F006A4685 /* MyHealthTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHealthTabBarController.swift; sourceTree = "<group>"; };
+		F1E66BE41DBC1854006A4685 /* ActivityCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1A168EC1DBFEBD6000C3E6E /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				F1A8C85D1DC0544C004ADB2E /* LearnViewController.swift */,
+			);
+			name = Learn;
+			sourceTree = "<group>";
+		};
 		F1B6B7861DAEE4B8003F1817 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +196,7 @@
 				F1D871961DAEA78A00DF17B9 /* Onboarding */,
 				F1DA76D51DB008A800097BBF /* Dashboard */,
 				F1D871AA1DAEAC1B00DF17B9 /* Activities */,
+				F1A168EC1DBFEBD6000C3E6E /* Learn */,
 				F1B6B78D1DAF2D48003F1817 /* Profile */,
 				F1DA76CE1DB0034200097BBF /* Withdrawal */,
 				F1D8719B1DAEA7CF00DF17B9 /* Steps */,
@@ -264,7 +277,8 @@
 			isa = PBXGroup;
 			children = (
 				F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */,
-				F168AAE21DB176BE00F6A0A8 /* PieChartDataSource.swift */,
+				F1E66BE01DBC152F006A4685 /* MyHealthTabBarController.swift */,
+				F1E66BE41DBC1854006A4685 /* ActivityCounter.swift */,
 			);
 			name = Dashboard;
 			sourceTree = "<group>";
@@ -405,16 +419,17 @@
 			files = (
 				F1DA76D21DB0034F00097BBF /* WithdrawViewController.swift in Sources */,
 				F1D871A91DAEABD400DF17B9 /* HealthDataStepViewController.swift in Sources */,
+				F1A8C85E1DC0544C004ADB2E /* LearnViewController.swift in Sources */,
 				F1B6B78C1DAEE506003F1817 /* HKHealthStore+Queries.swift in Sources */,
 				F1DA76D41DB0089D00097BBF /* AnimatableChart.swift in Sources */,
 				F1D871AC1DAEAC3100DF17B9 /* StudyTasks.swift in Sources */,
 				F1D871951DAEA77B00DF17B9 /* ResearchContainerSegue.swift in Sources */,
 				F1D871AE1DAEACB100DF17B9 /* ActivityViewController.swift in Sources */,
+				F1E66BE11DBC152F006A4685 /* MyHealthTabBarController.swift in Sources */,
 				F1D8719D1DAEA7E100DF17B9 /* ConsentDocument.swift in Sources */,
 				F1D871A71DAEABA700DF17B9 /* HealthDataStep.swift in Sources */,
 				F1D8719A1DAEA7C000DF17B9 /* IntroductionViewController.swift in Sources */,
 				F1D871641DAEA6E400DF17B9 /* AppDelegate.swift in Sources */,
-				F168AAE31DB176BE00F6A0A8 /* PieChartDataSource.swift in Sources */,
 				F1B6B78A1DAEE4D8003F1817 /* HealthClientType.swift in Sources */,
 				F1B6B78F1DAF2D5C003F1817 /* ProfileViewController.swift in Sources */,
 				F1B6B7911DAF2DFF003F1817 /* ProfileHeaderView.swift in Sources */,
@@ -423,6 +438,7 @@
 				F168AAE11DB1765D00F6A0A8 /* DashboardTableViewController.swift in Sources */,
 				F143C6EA1DB6FE830052D8E2 /* EligibilityTask.swift in Sources */,
 				F1D871981DAEA79C00DF17B9 /* OnboardingViewController.swift in Sources */,
+				F1E66BE51DBC1854006A4685 /* ActivityCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,9 +582,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyHealthPrototype/MyHealthPrototype.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 46FATYVTFW;
 				INFOPLIST_FILE = MyHealthPrototype/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.MyHealthPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,9 +599,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyHealthPrototype/MyHealthPrototype.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 46FATYVTFW;
 				INFOPLIST_FILE = MyHealthPrototype/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.MyHealthPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";

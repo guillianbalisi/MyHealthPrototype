@@ -42,7 +42,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUx-oP-wfZ">
-                                <frame key="frameInset" minX="-1" height="462" maxX="1" maxY="88"/>
+                                <frame key="frameInset" minX="-2" height="461" maxX="2" maxY="90"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="gXg-10-0dT" kind="embed" id="tcG-Ot-dZ5"/>
@@ -77,10 +77,11 @@
             </objects>
             <point key="canvasLocation" x="458" y="-618"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--My Health Tab Bar Controller-->
         <scene sceneID="QRB-5y-Mqv">
             <objects>
-                <tabBarController storyboardIdentifier="studyViewController" id="POa-wc-pUz" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="studyViewController" id="POa-wc-pUz" customClass="MyHealthTabBarController" customModule="MyHealthPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ab0-OD-1cS"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Cks-Hf-kxt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -89,6 +90,7 @@
                     <connections>
                         <segue destination="UpV-SG-bzM" kind="relationship" relationship="viewControllers" id="aW6-UT-FtJ"/>
                         <segue destination="yLI-Sx-Akt" kind="relationship" relationship="viewControllers" id="sGy-v1-ebd"/>
+                        <segue destination="2oI-I3-R3j" kind="relationship" relationship="viewControllers" id="i1j-ln-h5Y"/>
                         <segue destination="VPG-wp-sao" kind="relationship" relationship="viewControllers" id="gMp-zr-HgT"/>
                     </connections>
                 </tabBarController>
@@ -131,18 +133,18 @@
                                 <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LTE-3h-Tri" id="J5p-kD-3hk">
-                                    <frame key="frameInset" width="320" height="43"/>
+                                    <frame key="frameInset" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h5N-SF-IBI">
-                                            <frame key="frameInset" minX="15" minY="4" width="34" height="21"/>
+                                            <frame key="frameInset" minX="15" minY="5" width="33.5" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EFb-hB-CzP">
-                                            <frame key="frameInset" minX="15" minY="25" width="44" height="15"/>
+                                            <frame key="frameInset" minX="15" minY="25.5" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
@@ -253,7 +255,7 @@
                                 <rect key="frame" x="0.0" y="232" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="603-xk-VDO" id="iCD-6i-d9r">
-                                    <frame key="frameInset" width="320" height="43"/>
+                                    <frame key="frameInset" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtF-lO-MQp" userLabel="Title Label">
@@ -292,6 +294,66 @@
                 <exit id="ZNs-KN-BVW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1822.5" y="1282.3943661971832"/>
+        </scene>
+        <!--Learn-->
+        <scene sceneID="Yqi-1T-mjd">
+            <objects>
+                <tableViewController id="eVJ-Dh-9bj" customClass="LearnViewController" customModule="MyHealthPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="UD0-pv-tvz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="Wpd-ii-AcL">
+                            <rect key="frame" x="0.0" y="136" width="320" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="learnCell" textLabel="VxW-T4-S9Z" style="IBUITableViewCellStyleDefault" id="Gzc-NB-Sjc">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gzc-NB-Sjc" id="Ddl-6M-zJM">
+                                    <frame key="frameInset" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VxW-T4-S9Z">
+                                            <frame key="frameInset" minX="15" width="290" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eVJ-Dh-9bj" id="wqa-J8-dcG"/>
+                            <outlet property="delegate" destination="eVJ-Dh-9bj" id="cF5-9b-RN8"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Learn" id="5hi-8O-5nY"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJ2-Pv-TWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1823" y="1948"/>
+        </scene>
+        <!--Learn-->
+        <scene sceneID="P8z-Qs-IVc">
+            <objects>
+                <navigationController id="2oI-I3-R3j" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Learn" image="tab_learn" id="mNf-Xu-fsK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="27b-BH-THb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eVJ-Dh-9bj" kind="relationship" relationship="rootViewController" id="5sG-hU-PmI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jpy-qO-gis" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="1948"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aOd-uV-KtY">
@@ -443,6 +505,7 @@
         <image name="profilePlaceholder" width="150" height="150"/>
         <image name="tab_activities" width="23" height="23"/>
         <image name="tab_dashboard" width="29" height="21"/>
+        <image name="tab_learn" width="25" height="22"/>
         <image name="tab_profile" width="24" height="24"/>
     </resources>
 </document>

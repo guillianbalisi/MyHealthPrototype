@@ -48,8 +48,15 @@ enum Activity: Int {
 
 class ActivityViewController: UITableViewController {
     
+    // MARK: Initialization
+    
+    var activityCounter = ActivityCounter()
+    
     override func viewDidLoad() {
         UIView.appearance().tintColor = UIColor.init(colorLiteralRed: 180.0, green: 0, blue: 0, alpha: 1.0)
+        
+    let tbvc = self.tabBarController as! MyHealthTabBarController
+    activityCounter = tbvc.activityCounter
     }
     
     // MARK: UITableViewDataSource
@@ -74,6 +81,8 @@ class ActivityViewController: UITableViewController {
     // MARK: UITableViewDelegate
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        activityCounter.counter += 1
+        
         guard let activity = Activity(rawValue: (indexPath as NSIndexPath).row) else { return }
         
         let taskViewController: ORKTaskViewController
@@ -90,6 +99,10 @@ class ActivityViewController: UITableViewController {
         
         taskViewController.delegate = self
         navigationController?.present(taskViewController, animated: true, completion: nil)
+        
+        if let cell = tableView.cellForRow(at: indexPath) {
+            cell.accessoryType = .checkmark
+        }
     }
 }
 
@@ -102,6 +115,5 @@ extension ActivityViewController : ORKTaskViewControllerDelegate {
             taskViewController.dismiss(animated: true, completion: nil)
         }
     }
-    
     
 }
