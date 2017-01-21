@@ -13,7 +13,7 @@ class WithdrawViewController: ORKTaskViewController {
     // MARK: Initialization
     
     override func viewDidLoad() {
-        UIView.appearance().tintColor = UIColor.init(colorLiteralRed: 180.0, green: 0, blue: 0, alpha: 1.0)
+        UIView.appearance().tintColor = UIColor.init(colorLiteralRed: 180.0/255, green: 0, blue: 0, alpha: 1.0)
     }
     
     init() {

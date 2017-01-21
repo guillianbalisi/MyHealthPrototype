@@ -10,4 +10,8 @@ import UIKit
 
 class MyHealthTabBarController: UITabBarController {
     var activityCounter = ActivityCounter()
+    
+    override func viewDidLoad() {
+        self.tabBar.tintColor = UIColor.init(colorLiteralRed: 180.0/255, green: 0, blue: 0, alpha: 1.0)
+    }
 }

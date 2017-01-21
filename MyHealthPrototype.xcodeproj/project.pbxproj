@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1011EF01E247D9E000B008C /* RCTConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1011EEF1E247D9E000B008C /* RCTConsent.swift */; };
 		F143C6EA1DB6FE830052D8E2 /* EligibilityTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F143C6E91DB6FE830052D8E2 /* EligibilityTask.swift */; };
+		F14CCAC51E25D72E003C0C85 /* SmokeFreeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F14CCAC41E25D72E003C0C85 /* SmokeFreeIcon.png */; };
 		F168AAE11DB1765D00F6A0A8 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */; };
 		F1A8C85E1DC0544C004ADB2E /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A8C85D1DC0544C004ADB2E /* LearnViewController.swift */; };
 		F1B6B78A1DAEE4D8003F1817 /* HealthClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B7891DAEE4D8003F1817 /* HealthClientType.swift */; };
@@ -15,6 +17,7 @@
 		F1B6B78F1DAF2D5C003F1817 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B78E1DAF2D5C003F1817 /* ProfileViewController.swift */; };
 		F1B6B7911DAF2DFF003F1817 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B7901DAF2DFF003F1817 /* ProfileHeaderView.swift */; };
 		F1B6B7931DAF2E28003F1817 /* ProfileStaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6B7921DAF2E28003F1817 /* ProfileStaticTableViewCell.swift */; };
+		F1BC86CE1E26CD020006E476 /* FollowUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC86CD1E26CD020006E476 /* FollowUpViewController.swift */; };
 		F1D871641DAEA6E400DF17B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871631DAEA6E400DF17B9 /* AppDelegate.swift */; };
 		F1D871691DAEA6E400DF17B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D871671DAEA6E400DF17B9 /* Main.storyboard */; };
 		F1D8716B1DAEA6E400DF17B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D8716A1DAEA6E400DF17B9 /* Assets.xcassets */; };
@@ -36,6 +39,8 @@
 		F1DA76D41DB0089D00097BBF /* AnimatableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA76D31DB0089C00097BBF /* AnimatableChart.swift */; };
 		F1E66BE11DBC152F006A4685 /* MyHealthTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E66BE01DBC152F006A4685 /* MyHealthTabBarController.swift */; };
 		F1E66BE51DBC1854006A4685 /* ActivityCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E66BE41DBC1854006A4685 /* ActivityCounter.swift */; };
+		F1ED4ABF1E232ABD00AC3DB6 /* PHRI1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1ED4ABE1E232ABD00AC3DB6 /* PHRI1.png */; };
+		F1F40BEF1E25521A009A272C /* RCTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F40BEE1E25521A009A272C /* RCTViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +89,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F1011EEF1E247D9E000B008C /* RCTConsent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTConsent.swift; sourceTree = "<group>"; };
 		F143C6E91DB6FE830052D8E2 /* EligibilityTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EligibilityTask.swift; sourceTree = "<group>"; };
+		F14CCAC41E25D72E003C0C85 /* SmokeFreeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SmokeFreeIcon.png; path = ../../../SmokeFreeIcon.png; sourceTree = "<group>"; };
 		F168AAE01DB1765D00F6A0A8 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
 		F1A8C85D1DC0544C004ADB2E /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		F1B6B7891DAEE4D8003F1817 /* HealthClientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthClientType.swift; sourceTree = "<group>"; };
@@ -92,6 +99,7 @@
 		F1B6B78E1DAF2D5C003F1817 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F1B6B7901DAF2DFF003F1817 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		F1B6B7921DAF2E28003F1817 /* ProfileStaticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStaticTableViewCell.swift; sourceTree = "<group>"; };
+		F1BC86CD1E26CD020006E476 /* FollowUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowUpViewController.swift; sourceTree = "<group>"; };
 		F1D871601DAEA6E400DF17B9 /* MyHealthPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHealthPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D871631DAEA6E400DF17B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D871681DAEA6E400DF17B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,6 +125,8 @@
 		F1DA76D31DB0089C00097BBF /* AnimatableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableChart.swift; sourceTree = "<group>"; };
 		F1E66BE01DBC152F006A4685 /* MyHealthTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHealthTabBarController.swift; sourceTree = "<group>"; };
 		F1E66BE41DBC1854006A4685 /* ActivityCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCounter.swift; sourceTree = "<group>"; };
+		F1ED4ABE1E232ABD00AC3DB6 /* PHRI1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PHRI1.png; path = ../../PHRI1.png; sourceTree = "<group>"; };
+		F1F40BEE1E25521A009A272C /* RCTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +149,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1011EEC1E247D03000B008C /* RCT */ = {
+			isa = PBXGroup;
+			children = (
+				F1011EEF1E247D9E000B008C /* RCTConsent.swift */,
+				F1F40BEE1E25521A009A272C /* RCTViewController.swift */,
+				F1BC86CD1E26CD020006E476 /* FollowUpViewController.swift */,
+			);
+			name = RCT;
+			sourceTree = "<group>";
+		};
 		F1A168EC1DBFEBD6000C3E6E /* Learn */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,12 +220,15 @@
 				F1B6B78D1DAF2D48003F1817 /* Profile */,
 				F1DA76CE1DB0034200097BBF /* Withdrawal */,
 				F1D8719B1DAEA7CF00DF17B9 /* Steps */,
-				F1D871671DAEA6E400DF17B9 /* Main.storyboard */,
 				F1B6B7861DAEE4B8003F1817 /* Protocols */,
+				F1011EEC1E247D03000B008C /* RCT */,
 				F1B6B78B1DAEE506003F1817 /* HKHealthStore+Queries.swift */,
+				F1D871671DAEA6E400DF17B9 /* Main.storyboard */,
 				F1D8716A1DAEA6E400DF17B9 /* Assets.xcassets */,
 				F1D8716C1DAEA6E400DF17B9 /* LaunchScreen.storyboard */,
 				F1D8716F1DAEA6E400DF17B9 /* Info.plist */,
+				F1ED4ABE1E232ABD00AC3DB6 /* PHRI1.png */,
+				F14CCAC41E25D72E003C0C85 /* SmokeFreeIcon.png */,
 			);
 			path = MyHealthPrototype;
 			sourceTree = "<group>";
@@ -335,7 +358,7 @@
 				TargetAttributes = {
 					F1D8715F1DAEA6E400DF17B9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 46FATYVTFW;
+						DevelopmentTeam = 5AWC2N2F5R;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
@@ -397,7 +420,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1ED4ABF1E232ABD00AC3DB6 /* PHRI1.png in Resources */,
 				F1D8716E1DAEA6E400DF17B9 /* LaunchScreen.storyboard in Resources */,
+				F14CCAC51E25D72E003C0C85 /* SmokeFreeIcon.png in Resources */,
 				F1D8716B1DAEA6E400DF17B9 /* Assets.xcassets in Resources */,
 				F1D871691DAEA6E400DF17B9 /* Main.storyboard in Resources */,
 			);
@@ -421,9 +446,11 @@
 				F1D871A91DAEABD400DF17B9 /* HealthDataStepViewController.swift in Sources */,
 				F1A8C85E1DC0544C004ADB2E /* LearnViewController.swift in Sources */,
 				F1B6B78C1DAEE506003F1817 /* HKHealthStore+Queries.swift in Sources */,
+				F1011EF01E247D9E000B008C /* RCTConsent.swift in Sources */,
 				F1DA76D41DB0089D00097BBF /* AnimatableChart.swift in Sources */,
 				F1D871AC1DAEAC3100DF17B9 /* StudyTasks.swift in Sources */,
 				F1D871951DAEA77B00DF17B9 /* ResearchContainerSegue.swift in Sources */,
+				F1BC86CE1E26CD020006E476 /* FollowUpViewController.swift in Sources */,
 				F1D871AE1DAEACB100DF17B9 /* ActivityViewController.swift in Sources */,
 				F1E66BE11DBC152F006A4685 /* MyHealthTabBarController.swift in Sources */,
 				F1D8719D1DAEA7E100DF17B9 /* ConsentDocument.swift in Sources */,
@@ -434,6 +461,7 @@
 				F1B6B78F1DAF2D5C003F1817 /* ProfileViewController.swift in Sources */,
 				F1B6B7911DAF2DFF003F1817 /* ProfileHeaderView.swift in Sources */,
 				F1B6B7931DAF2E28003F1817 /* ProfileStaticTableViewCell.swift in Sources */,
+				F1F40BEF1E25521A009A272C /* RCTViewController.swift in Sources */,
 				F1D871931DAEA75900DF17B9 /* ResearchContainerViewController.swift in Sources */,
 				F168AAE11DB1765D00F6A0A8 /* DashboardTableViewController.swift in Sources */,
 				F143C6EA1DB6FE830052D8E2 /* EligibilityTask.swift in Sources */,
@@ -583,11 +611,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyHealthPrototype/MyHealthPrototype.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 46FATYVTFW;
+				DEVELOPMENT_TEAM = 5AWC2N2F5R;
 				INFOPLIST_FILE = MyHealthPrototype/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.MyHealthPrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.CourseCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -600,11 +628,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyHealthPrototype/MyHealthPrototype.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 46FATYVTFW;
+				DEVELOPMENT_TEAM = 5AWC2N2F5R;
 				INFOPLIST_FILE = MyHealthPrototype/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.MyHealthPrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balisiga.CourseCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

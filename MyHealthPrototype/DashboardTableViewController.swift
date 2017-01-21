@@ -54,6 +54,7 @@ class DashboardTableViewController: UITableViewController, ORKPieChartViewDataSo
         // Set the table view to automatically calculate the height of cells.
         tableView.estimatedRowHeight = tableView.rowHeight
         tableView.rowHeight = UITableViewAutomaticDimension
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -87,7 +88,7 @@ class DashboardTableViewController: UITableViewController, ORKPieChartViewDataSo
     func pieChartView(_ pieChartView: ORKPieChartView, colorForSegmentAt index: Int) -> UIColor {
         switch PieChartSegment(rawValue: index)! {
         case .Completed:
-            return UIColor.init(colorLiteralRed: 180.0, green: 0, blue: 0, alpha: 1.0)
+            return UIColor.init(colorLiteralRed: 180.0/255, green: 0, blue: 0, alpha: 1.0)
         case .Remaining:
             return UIColor.lightGray
         }

@@ -17,13 +17,13 @@ class OnboardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        joinStudyButton.tintColor = UIColor.init(colorLiteralRed: 190.0, green: 0, blue: 0, alpha: 1.0)
+        joinStudyButton.tintColor = UIColor.init(colorLiteralRed: 190.0/255, green: 0, blue: 0, alpha: 1.0)
         joinStudyButton.backgroundColor = UIColor.clear
         joinStudyButton.layer.cornerRadius = 5
         joinStudyButton.layer.borderWidth = 0.9
-        joinStudyButton.layer.borderColor = UIColor.init(colorLiteralRed: 180.0, green: 0, blue: 0, alpha: 1.0).cgColor
+        joinStudyButton.layer.borderColor = UIColor.init(colorLiteralRed: 180.0/255, green: 0, blue: 0, alpha: 1.0).cgColor
         
-        UIView.appearance().tintColor = UIColor.init(colorLiteralRed: 180.0, green: 0, blue: 0, alpha: 1.0)
+        UIView.appearance().tintColor = UIColor.init(colorLiteralRed: 180.0/255, green: 0, blue: 0, alpha: 1.0)
     }
     
     // MARK: IB actions    

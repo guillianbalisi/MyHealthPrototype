@@ -13,6 +13,9 @@ class ResearchContainerViewController: UIViewController {
     
     // MARK: Propertues
     
+    var hasPresentedRCT = false
+    var hasPresentedFollowUp = false
+    
     var contentHidden = false {
         didSet {
             guard contentHidden != oldValue && isViewLoaded else { return }
@@ -33,6 +36,37 @@ class ResearchContainerViewController: UIViewController {
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+//        if hasPresented == false {
+//            let delegate = UIApplication.shared.delegate as! AppDelegate
+//            var presentFromNotification = delegate.presentFromNotification
+//            print("In VC: \(presentFromNotification)")
+//            if presentFromNotification == true {
+//                if hasCompletedRCT == false {
+//                    toRCT()
+//                    hasPresented = true
+//                }
+//            }
+//        }
+        
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        let presentFrom = delegate.presentFrom
+        
+        if hasPresentedRCT == false && hasPresentedFollowUp == false {
+            if presentFrom == "RCT" {
+                hasPresentedRCT = true
+                toRCT()
+            }
+        }
+        
+        if hasPresentedRCT == true && hasPresentedFollowUp == false {
+            if presentFrom == "FollowUp" {
+                hasPresentedFollowUp = true
+                toFollowUp()
+            }
+        }
+    }
+    
     // MARK: Unwind segues
     
     @IBAction func unwindToStudy(_ segue: UIStoryboardSegue) {
@@ -44,6 +78,10 @@ class ResearchContainerViewController: UIViewController {
         }
     
     // MARK: Transitions
+
+    func toRCT() {
+        performSegue(withIdentifier: "toRCT", sender: self)
+    }
     
     func toOnboarding() {
         performSegue(withIdentifier: "toOnboarding", sender: self)
@@ -53,13 +91,17 @@ class ResearchContainerViewController: UIViewController {
         performSegue(withIdentifier: "toStudy", sender: self)
     }
     
-        func toWithdrawl() {
-            let viewController = WithdrawViewController()
-            viewController.delegate = self
+    func toWithdrawl() {
+        let viewController = WithdrawViewController()
+        viewController.delegate = self
+
+        present(viewController, animated: true, completion: nil)
+    }
     
-            present(viewController, animated: true, completion: nil)
-        }
-    
+    func toFollowUp() {
+        performSegue(withIdentifier: "toFollowUp", sender: self)
+    }
+
 }
 
 extension ResearchContainerViewController: ORKTaskViewControllerDelegate {
